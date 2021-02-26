@@ -7,16 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F54FF9D25D20F7B0010CD29 /* DSCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54FF9C25D20F7B0010CD29 /* DSCTool.m */; };
-		8F54FFA125D215F30010CD29 /* Hopper in Resources */ = {isa = PBXBuildFile; fileRef = 8F54FFA025D215F30010CD29 /* Hopper */; };
+		8F398B2525DE33B2005905DB /* DSCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54FF9C25D20F7B0010CD29 /* DSCTool.m */; };
+		8F398B2E25DE34E4005905DB /* libMachObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F398B0F25DE32B0005905DB /* libMachObjC.a */; };
+		8F398B3925DE35A0005905DB /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 8F398B3825DE35A0005905DB /* Source */; };
+		8F62B74525E891A2006D48F3 /* HopperSDK-4.7.1 in Resources */ = {isa = PBXBuildFile; fileRef = 8F62B74425E891A2006D48F3 /* HopperSDK-4.7.1 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8F398B0E25DE32B0005905DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F398B0525DE32B0005905DB /* class-dump.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 013D1F1113A5AE5A00BF0A67;
+			remoteInfo = MachObjC;
+		};
+		8F398B1025DE32B0005905DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F398B0525DE32B0005905DB /* class-dump.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 01EB825F13A590D9003EDE60;
+			remoteInfo = "class-dump";
+		};
+		8F398B1225DE32B0005905DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F398B0525DE32B0005905DB /* class-dump.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 013D1EFB13A5A0F100BF0A67;
+			remoteInfo = deprotect;
+		};
+		8F398B1425DE32B0005905DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F398B0525DE32B0005905DB /* class-dump.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 01B02CFF13A5B0DC0047BC53;
+			remoteInfo = formatType;
+		};
+		8F398B1625DE32B0005905DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F398B0525DE32B0005905DB /* class-dump.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0165B8B11827137D00CC647F;
+			remoteInfo = UnitTests;
+		};
+		8F398B4F25DE3EE7005905DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F398B0525DE32B0005905DB /* class-dump.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 013D1F1013A5AE5A00BF0A67;
+			remoteInfo = MachObjC;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8F398B0525DE32B0005905DB /* class-dump.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "class-dump.xcodeproj"; path = "class-dump/class-dump.xcodeproj"; sourceTree = "<group>"; };
+		8F398B3825DE35A0005905DB /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = "class-dump/Source"; sourceTree = "<group>"; };
 		8F54FF9225D20EB20010CD29 /* DSCTool.hopperTool */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSCTool.hopperTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F54FF9525D20EB20010CD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F54FF9C25D20F7B0010CD29 /* DSCTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCTool.m; sourceTree = "<group>"; };
 		8F54FF9F25D20F8B0010CD29 /* DSCTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCTool.h; sourceTree = "<group>"; };
-		8F54FFA025D215F30010CD29 /* Hopper */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Hopper; path = "../HopperSDK-4.7.1/include/Hopper"; sourceTree = "<group>"; };
+		8F54FFA025D215F30010CD29 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = "class-dump/Source"; sourceTree = "<group>"; };
+		8F62B74425E891A2006D48F3 /* HopperSDK-4.7.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "HopperSDK-4.7.1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,18 +74,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F398B2E25DE34E4005905DB /* libMachObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F398B0625DE32B0005905DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F398B0F25DE32B0005905DB /* libMachObjC.a */,
+				8F398B1125DE32B0005905DB /* class-dump */,
+				8F398B1325DE32B0005905DB /* deprotect */,
+				8F398B1525DE32B0005905DB /* formatType */,
+				8F398B1725DE32B0005905DB /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F398B2D25DE34E4005905DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F54FF8925D20EB20010CD29 = {
 			isa = PBXGroup;
 			children = (
-				8F54FFA025D215F30010CD29 /* Hopper */,
+				8F62B74425E891A2006D48F3 /* HopperSDK-4.7.1 */,
+				8F398B3825DE35A0005905DB /* Source */,
+				8F398B0525DE32B0005905DB /* class-dump.xcodeproj */,
+				8F54FFA025D215F30010CD29 /* Source */,
 				8F54FF9425D20EB20010CD29 /* DSCTool */,
 				8F54FF9325D20EB20010CD29 /* Products */,
+				8F398B2D25DE34E4005905DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +145,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8F398B5025DE3EE7005905DB /* PBXTargetDependency */,
 			);
 			name = DSCTool;
 			productName = DSCTool;
@@ -101,6 +176,12 @@
 			mainGroup = 8F54FF8925D20EB20010CD29;
 			productRefGroup = 8F54FF9325D20EB20010CD29 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8F398B0625DE32B0005905DB /* Products */;
+					ProjectRef = 8F398B0525DE32B0005905DB /* class-dump.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8F54FF9125D20EB20010CD29 /* DSCTool */,
@@ -108,12 +189,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8F398B0F25DE32B0005905DB /* libMachObjC.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMachObjC.a;
+			remoteRef = 8F398B0E25DE32B0005905DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F398B1125DE32B0005905DB /* class-dump */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "class-dump";
+			remoteRef = 8F398B1025DE32B0005905DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F398B1325DE32B0005905DB /* deprotect */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = deprotect;
+			remoteRef = 8F398B1225DE32B0005905DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F398B1525DE32B0005905DB /* formatType */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = formatType;
+			remoteRef = 8F398B1425DE32B0005905DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F398B1725DE32B0005905DB /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = 8F398B1625DE32B0005905DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8F54FF9025D20EB20010CD29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F54FFA125D215F30010CD29 /* Hopper in Resources */,
+				8F62B74525E891A2006D48F3 /* HopperSDK-4.7.1 in Resources */,
+				8F398B3925DE35A0005905DB /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,11 +244,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F54FF9D25D20F7B0010CD29 /* DSCTool.m in Sources */,
+				8F398B2525DE33B2005905DB /* DSCTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F398B5025DE3EE7005905DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MachObjC;
+			targetProxy = 8F398B4F25DE3EE7005905DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8F54FF9625D20EB20010CD29 /* Debug */ = {
@@ -247,11 +375,18 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7B7A3LW66Y;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../HopperSDK-4.7.1/include";
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/HopperSDK-4.7.1/include",
+					"$(SRCROOT)/class-dump/Source",
+				);
 				INFOPLIST_FILE = DSCTool/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwx..DSCTool;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwx.DSCTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = hopperTool;
@@ -263,11 +398,18 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7B7A3LW66Y;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../HopperSDK-4.7.1/include";
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/HopperSDK-4.7.1/include",
+					"$(SRCROOT)/class-dump/Source",
+				);
 				INFOPLIST_FILE = DSCTool/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwx..DSCTool;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwx.DSCTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = hopperTool;
